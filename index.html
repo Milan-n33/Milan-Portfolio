@@ -1,0 +1,193 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milan Nayak's Portfolio</title>
+    <link rel = "stylesheet" href = "styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Libre+Baskerville&family=Poppins:ital@1&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <!---------Header------------> 
+    <header id = "header">
+        <nav class="nav">
+            <div class ="left" >Milan's Portfolio</div>
+            <div class = "right">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#row">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contacts">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </header>
+   
+    <div class="wrapper">
+        <div class="image">
+            <img src="./Images/headerImage.png" alt="Background Image">
+            
+            <div class="contents">
+                <h1> Crafting Digital World </h1>
+                <p>"Crafting digital experiences that captivate. Transforming ideas into elegant, functional websites. Elevate your online presence with my innovative web solutions."</p>
+            </div>
+        </div>
+    </div>
+    <!---------About me------------> 
+    <div id="row">
+            <div class="aboutleft"><img src = "./Images/me.jpeg" ></div>
+            <div class="aboutright">
+                <h2 class = "subTitle">About Me</h2>
+                <p class = "aboutText">I'm Milan Nayak, a dedicated B.Tech student majoring in Electrical Engineering at OUTR Bbsr. With a passion for technology that drives me, I'm on a journey to synchronize with the modern world's dynamic pace. As a fervent tech enthusiast, I'm currently immersed in the world of web development, honing my skills in HTML, CSS, and JavaScript for crafting captivating front-end experiences. On the flip side, I'm delving into the MEAN stack, exploring the intricate realm of back-end development. My portfolio website, meticulously designed with HTML, CSS, and JavaScript, reflects my commitment to merging creativity and functionality.</p>
+                <div class = "tab-titles">
+                    <p class = "tab-links link1">Skills</p>
+                    <p class = "tab-links link2">Education</p>
+                    <p class = "tab-links link3">Experience</p>    
+                </div>
+                <div class="tab-contents">
+                    <div class="skills tab">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>Web Designing Interfaces</li>
+                            <li><span>Front End</span><br>HTML AND CSS</li>
+                            <li><span>Back End</span><br>JAVASCRIPT</li>
+                        </ul>   
+                    </div>
+                    <div class = "education tab">
+                        <ul>
+                            <li><span>OUTR</span><br>BTECH EE 2026</li>
+                            <li><span>ODM</span><br>HIGHER SECONDARY<br> 2019-2021</li>
+                            <li><span>St Xaviers</span><br>PRIMARY AND SECONDARY <br>2010-2019</li>
+                        </ul>
+                    </div>
+                    <div class="experience tab">
+                        <ul>
+                            <li><span>SMART India HACKATHON</span><br>Qualified Internal Hackathon</li>
+                        </ul>
+                    </div>   
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!--------Services-------------->
+    <div id="services">
+        <div class="container">
+            <h2 class = "subTitle">My services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>"Unlock the potential of your online presence with captivating web designs tailored to your brand. Let's collaborate to turn your digital vision into reality. Contact me today!"</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>"Elevate user experiences with intuitive UI/UX design. Ready to transform your digital platform? Let's connect now."</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h3>App Design</h3>
+                    <p>"Transforming ideas into sleek, user-centered apps. Seamlessly blending design and functionality for unforgettable digital solutions. Connect with me today!"</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+             
+
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h2 class = "subTitle">My Projects</h2>
+            <div class="projects">
+                <div class="work">
+                    <img src="./Images/dice.png">
+                    <div class="layer">
+                        <h3>Roll a Dice</h3>
+                        <p>Made a game in which a dice will be rolled and the one with higher value wins </p>
+                        <a href = "#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/drum.png">
+                    <div class="layer">
+                        <h3>DrumSticks</h3>
+                        <p>Made a drumstick project where you can beat drums using keyboard and mouse </p>
+                        <a href = "#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/simon.png">
+                    <div class="layer">
+                        <h3>SimonsGame</h3>
+                        <p>Made a game where you have to create a pattern like computer else you lose </p>
+                        <a href = "#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id = "contacts">
+    <div class="container">
+        <h2 class="subTitle">Contact Me</h2>
+        <div class="rows">
+            <div class="contact-left">
+               <h3>Contact Me</h3>
+                <p><i class="fa-solid fa-paper-plane"></i>milanayak33@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7854053899</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/milu_n33?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/milan-nayak-75aa6a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Milan_N69?t=5vskLMj3Ib1LoaEXvuquLg&s=09"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name = 'submit-to-google-sheet'>
+                    <input type="text" name="Name " placeholder="Your Name" required>
+                    <input type="email" name="Email " placeholder="Your Email" required>
+                    <textarea name="Message" rows = "6" placeholder="Your Message"></textarea>
+                    <button type = "Submit" class = "btn">Submit</button>
+                </form>
+                <span id ="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    <div class="copyright">
+        <p>copyright @ Milan Nayak</p>
+    </div>
+</footer>
+    <script src="https://kit.fontawesome.com/a52bd45550.js" crossorigin="anonymous"></script>
+    <script src = "index.js"></script> 
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbybyvoDcTFpd55faGi3xjmEHuBUG0X289jkEH2ScZyrmkemVirr2Wm2DWPJqF96O54hTQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },4000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>  
+   
+</body>
+</html>
